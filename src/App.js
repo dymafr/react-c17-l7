@@ -8,7 +8,7 @@ function App() {
   const navigation = useLocation();
 
   useEffect(() => {
-    // console.log(navigation);
+    console.log(navigation);
   }, [navigation]);
   return (
     <div className={`d-flex flex-column ${styles.appContainer}`}>
