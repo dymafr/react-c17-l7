@@ -5,9 +5,6 @@ export default function Profile() {
   const { id } = useParams();
   const [queryParams, setQueryParams] = useSearchParams();
 
-  //  console.log(id);
-  // console.log(queryParams.get('age'));
-
   return (
     <>
       <ul className="d-flex p-20">

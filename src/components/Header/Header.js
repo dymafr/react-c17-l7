@@ -6,8 +6,6 @@ function Header() {
   const matchProfile = useMatch('/profile/:id');
   const matchHomepage = useMatch('/');
 
-  console.log(matchProfile);
-
   return (
     <header className={`${styles.header} d-flex flex-row align-items-center`}>
       <div className="flex-fill">
