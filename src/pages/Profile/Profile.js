@@ -5,8 +5,8 @@ export default function Profile() {
   const { id } = useParams();
   const [queryParams, setQueryParams] = useSearchParams();
 
-  console.log(id);
-  console.log(queryParams.get('age'));
+  //  console.log(id);
+  // console.log(queryParams.get('age'));
 
   return (
     <>
